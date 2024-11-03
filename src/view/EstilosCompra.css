@@ -1,0 +1,115 @@
+/* Contenedor principal que centra el contenido */
+.contenedor-principal {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilos para el formulario de compra */
+.formulario-compra {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Lista de productos */
+.lista-productos {
+    display: flex;
+    justify-content: center; /* Centra los elementos de la lista */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    gap: 20px; /* Espacio entre productos */
+}
+
+/* Estilo para cada producto */
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 150px; /* Ancho específico para los productos */
+}
+
+.producto img {
+    width: 100%; /* Ajusta la imagen al ancho del producto */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilo para el carrito */
+.carrito {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo para el botón de comprar */
+.comprar-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el formulario de finalizar compra */
+.formulario-finalizar-compra {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo para los términos y condiciones */
+.terminos-condiciones {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilos generales para el formulario */
+.formulario-informacion {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario en la página */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Estilo para los inputs y select */
+.formulario-informacion input,
+.formulario-informacion select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre elementos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+/* Cambiar el color del borde al hacer focus */
+.formulario-informacion input:focus,
+.formulario-informacion select:focus {
+    border-color: #4CAF50; /* Color del borde cuando se selecciona */
+    outline: none; /* Quitar el borde de enfoque predeterminado */
+}
+
+/* Estilo para el botón de confirmación */
+.comprar-btn {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor a pointer */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+/* Cambiar el color de fondo del botón al hacer hover */
+.comprar-btn:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el checkbox */
+.terminos-condiciones {
+    margin: 10px 0; /* Espaciado entre checkbox y otros elementos */
+}
+
